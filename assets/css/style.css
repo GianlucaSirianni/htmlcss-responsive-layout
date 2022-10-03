@@ -56,18 +56,164 @@ nav{
 
 /* SEZIONE 1 - GET A DEMO APPLICATION */
 
+.fa-solid{
+    font-size: 3rem;
+}
 
+.topRow div,
+.bottomRow div{
+    border-radius: 25px;
+}
 
+.sectionOne{
+    width: 70%;
+    margin: auto;
+    border: 1px solid red;
+}
 
+#demoApplication{
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: lightskyblue;
+    border: 1px solid red;
+}
 
+#demoApplication h2{
+    color: blue;
+    margin-bottom: 2rem;
+}
 
-/* RESPONSIVE TABLET */
-
-@media screen and (min-width: 480px){
+#demoApplication p{
+    margin-bottom: 2rem;
     
 }
 
-/* RESPONSIVE DESKTOP */
+.blueButton{
+    padding: 1rem;
+    color: white;
+    background-color: blue;
+    border-radius: 25px;
+    text-align: center;
+    width: 60%;
+    /* margin: auto; */
+}
+
+#demoApplication img{
+    width: 80%;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-left: 2rem;
+    
+}
+
+/* SEZIONE 1 - CLEAN CODE */
+
+#cleanCode{
+    border: 1px solid red;
+    padding: 1.5rem;
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+.fa-file-code{
+    color: blue;
+    margin-bottom: 1.5rem;
+}
+
+#cleanCode h2{
+    color: blue;
+    margin-bottom: 1.5rem;
+}
+
+/* SEZIONE 1 - WEB DESIGN */
+
+#webDesign{
+    border: 1px solid red;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.fa-compass-drafting{
+    color: blue;
+    margin-bottom: 1.5rem;
+}
+
+#webDesign h2{
+    color: blue;
+    margin-bottom: 1.5rem;
+}
+
+/* SEZIONE 1 - DEVELOPMENT */
+
+#development{
+    border: 1px solid red;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.fa-laptop-code{
+    color: blue;
+    margin-bottom: 1.5rem;
+}
+
+#development h2{
+    color: blue;
+    margin-bottom: 1.5rem;
+}
+
+/* SEZIONE 1 - BRANDING */
+
+#branding{
+    border: 1px solid red;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.fa-bullhorn{
+    color: blue;
+    margin-bottom: 1.5rem;
+}
+
+#branding h2{
+    color: blue;
+    margin-bottom: 1.5rem;
+}
+
+
+
+/* !!!!!!!RESPONSIVE TABLET!!!!!!! */
+
+@media screen and (min-width: 480px){
+    /* SECTION 1*/
+
+    .topRow{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #demoApplication{
+        width: 58%;
+    }
+
+    #cleanCode{
+        width: 40%;
+    }
+
+    .bottomRow{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bottomRow div{
+        width: calc(100% / 3.1);
+        background-color: lightskyblue;
+        padding: 1.5rem;
+    }
+}
+
+/* !!!!!!!RESPONSIVE DESKTOP!!!!!!! */
 
 @media screen and (min-width: 1024px){
 
