@@ -6,6 +6,14 @@
 }
 
 /* UTILITIES */
+    
+/* .debug{
+        border: 1px solid red;
+    }
+
+    .debug2{
+        border: 1px solid green;
+    } */
 
 body{
     width: 100vw;
@@ -267,6 +275,64 @@ nav{
 }
 
 
+/* SECTION 3 - TESTIMONIALS */
+
+.sectionThree{
+    padding: 2rem;
+    width: 90%;
+    margin: auto;
+}
+
+.testimonials{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.testimonials h3,
+.testimonials h2,
+.testimonials p{
+    margin-bottom: 2rem;
+}
+
+.testimonials h3{
+    margin-top: 1.5rem;
+}
+
+.testimonials h2{
+    color:#9593E6
+}
+
+.cardImgContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.cardImg{
+    width: 70%;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.fa-quote-left,
+.fa-quote-right{
+    font-size: 1rem;
+}
+
+.card{
+    text-align: center;
+    background-color: #9593E6;
+    border-radius: 25px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card p,
+.card h3{
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+}
 
 
 /* !!!!!!!RESPONSIVE TABLET!!!!!!! */
@@ -321,6 +387,21 @@ nav{
     .fa-down-long{
         font-size: 1rem;
     }
+
+    /* SECTION 3 - TESTIMONIALS */
+
+    .card{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cardImg{
+        width: 150%;
+    }
+
+    
+
+
 
 }
 
@@ -425,13 +506,7 @@ nav{
 
     /* SECTION 2 */
 
-    /* .debug{
-        border: 1px solid red;
-    }
 
-    .debug2{
-        border: 1px solid green;
-    } */
 
     
 
