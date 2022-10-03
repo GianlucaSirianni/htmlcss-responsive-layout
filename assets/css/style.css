@@ -2,4 +2,138 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* UTILITIES */
+
+
+
+/* NAV BAR */
+
+.flexNav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    width: 100%;
+    background-color: rgb(37, 100, 235);
+}
+
+.logo{
+    padding: 3%;
+}
+
+.rightNav{
+    display: flex;
+    justify-content: space-around;
+    padding: 3%;
+    margin-top: 2%;
+    border: 1px solid red;
+}
+
+#planning{
+    display:none;
+    
+}
+
+#testimonials{
+    display:none;
+}
+
+#features{
+    display:none;
+}
+
+#aboutUs{
+    display:none;
+}
+
+#getStarted{
+    display:none;
+}
+
+/* SEZIONE 1 - GET A DEMO APPLICATION */
+
+
+
+
+
+
+/* RESPONSIVE TABLET */
+
+@media screen and (min-width: 480px){
+    
+}
+
+/* RESPONSIVE DESKTOP */
+
+@media screen and (min-width: 1024px){
+
+    /* NAVBAR */
+
+    header{
+        background-color: rgb(37, 100, 235);
+    }
+
+    nav{
+        width: 80%;
+        margin: auto;
+    }
+
+    .rightNav{
+        width: 60%;
+    }
+
+    .logo{
+        padding-top: 3rem;
+    }
+
+    #planning{
+        display: block;
+        padding: 0.5rem;
+    }
+    
+    #testimonials{
+        display: block;
+        padding: 0.5rem;
+    }
+    
+    #features{
+        display: block;
+        padding: 0.5rem;
+    }
+    
+    #aboutUs{
+        display: block;
+        padding: 0.5rem;
+    }
+    
+    #getStarted{
+        display: block;
+        padding: 0.5rem;
+    } 
+
+    #hamburger{
+        display: none;
+    }
+
+    .navLinks{
+        margin-left: 1%;
+    }
+
+    .navLinks a{
+        color: white;
+    }
+
+    #getStarted{
+        color: black;
+        background-color: white;
+        padding: 0.5rem;
+        border-radius: 25px;
+        
+    }
+    
+    
 }
