@@ -30,7 +30,7 @@ nav{
     justify-content: space-around;
     padding: 3%;
     margin-top: 2%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 #planning{
@@ -66,9 +66,9 @@ nav{
 }
 
 .sectionOne{
-    width: 70%;
+    width: 90%;
     margin: auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 #demoApplication{
@@ -76,7 +76,8 @@ nav{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     background-color: lightskyblue;
-    border: 1px solid red;
+    margin-bottom: 1.5rem;
+    /* border: 1px solid red; */
 }
 
 #demoApplication h2{
@@ -102,19 +103,22 @@ nav{
 #demoApplication img{
     width: 80%;
     padding-top: 1.5rem;
-    padding-left: 1.5rem;
+    /* padding-left: 1.5rem;
     padding-right: 1.5rem;
-    margin-left: 2rem;
+    margin-left: 2rem; */
+    display: block;
+    margin: auto;
     
 }
 
 /* SEZIONE 1 - CLEAN CODE */
 
 #cleanCode{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 1.5rem;
     text-align: center;
     background-color: lightskyblue;
+    margin-bottom: 1.5rem;
 }
 
 .fa-file-code{
@@ -130,9 +134,11 @@ nav{
 /* SEZIONE 1 - WEB DESIGN */
 
 #webDesign{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 1.5rem;
     text-align: center;
+    background-color: lightskyblue;
+    margin-bottom: 1.5rem;
 }
 
 .fa-compass-drafting{
@@ -148,9 +154,11 @@ nav{
 /* SEZIONE 1 - DEVELOPMENT */
 
 #development{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 1.5rem;
     text-align: center;
+    background-color: lightskyblue;
+    margin-bottom: 1.5rem;
 }
 
 .fa-laptop-code{
@@ -166,9 +174,11 @@ nav{
 /* SEZIONE 1 - BRANDING */
 
 #branding{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 1.5rem;
     text-align: center;
+    margin-bottom: 1.5rem;
+    background-color: lightskyblue;
 }
 
 .fa-bullhorn{
@@ -195,6 +205,7 @@ nav{
 
     #demoApplication{
         width: 58%;
+        
     }
 
     #cleanCode{
@@ -288,22 +299,24 @@ nav{
     }
 
     .leftDemo{
-        width: 60%;
-        border: 1px solid red;
+        width: 65%;
+        /* border: 1px solid red; */
     }
 
     .rightDemo{
-        width: 40%;
-        border: 1px solid red;
+        width: 35%;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
     }
 
     #demoApplication img{
         width: 100%;
-        padding-top: 0rem;
-        padding-left: 0rem;
-        padding-right: 0rem;
-        margin-left: 0rem;
-        margin-top: 2rem;
+        display: block;
+        margin: auto;
+        margin-bottom: 0rem;
+        
     }
 
     .blueButton{
