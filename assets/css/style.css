@@ -191,6 +191,54 @@ nav{
     margin-bottom: 1.5rem;
 }
 
+/* SECTION 2 - STRATEGIC PLANNING*/
+
+.sectionTwo{
+    background-color: rgb(145, 92, 194);
+}
+
+.twoTwo{
+    width: 90%;
+    margin: auto;
+}
+
+.twoTwoImg{
+    width: 100%;
+    padding: 1.5rem;
+}
+
+.twoTwoText{
+    color: white;
+}
+
+.twoTwoText h2,
+.twoTwoText p{
+    margin-bottom: 1.5rem;
+}
+
+
+
+/* SECTION 2 - APP DEVELOPMENT*/
+
+.twoOneImg{
+    width: 100%;
+    padding: 1.5rem;
+}
+
+.twoOneText h2,
+.twoOneText p{
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.twoOne{
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    border-radius: 25px;
+}
+
+
 
 
 /* !!!!!!!RESPONSIVE TABLET!!!!!!! */
