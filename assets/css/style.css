@@ -281,5 +281,33 @@ nav{
         
     }
     
-    
+    /* SECTION 1 */
+
+    #demoApplication{
+        display: flex;
+    }
+
+    .leftDemo{
+        width: 60%;
+        border: 1px solid red;
+    }
+
+    .rightDemo{
+        width: 40%;
+        border: 1px solid red;
+    }
+
+    #demoApplication img{
+        width: 100%;
+        padding-top: 0rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-left: 0rem;
+        margin-top: 2rem;
+    }
+
+    .blueButton{
+        margin-bottom: 1.5rem;
+    }
+
 }
