@@ -256,6 +256,7 @@ nav{
 .purpleButton{
     background-color: #9593E6;
     width: 30%;
+    max-width: 100%;
     margin: auto;
     border-radius: 100%;
     padding: 1.5rem;
@@ -359,8 +360,9 @@ nav{
     width: 90%;
     margin: 0 auto;
     padding: 2rem;
-    margin-top: 1.5rem;
+    /* margin-top: 1.5rem; */
     border: 1px solid red;
+    margin-bottom: 1.5rem;
 
 }
 
@@ -382,6 +384,142 @@ nav{
     width: 40%;
     text-align: center;
     margin-bottom: 2rem;
+}
+
+/* SECTION FIVE - ABOUT US */
+
+.sectionAboutUs{
+    padding: 1.5rem;
+}
+
+.textAboutUs h2{
+    color: #9593E6;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.textAboutUs p{
+    margin-bottom: 2rem;
+}
+
+.imgAboutUs{
+    border-radius: 100px;
+    max-width: 50%;
+}
+
+.imgContainerAboutUs{
+    position: relative;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+.lastQuote{
+    color: #9593E6;
+    font-size: 4rem;
+    position: absolute;
+    top: 0;
+    left: 37%;
+}
+
+.subtextAboutUs{
+    color: #9593E6;
+}
+
+.findMeButton{
+    color: white;
+    background-color: #9593E6;
+    padding: 0.5rem;
+    border-radius: 25px;
+    max-width: 55%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.6rem;
+}
+
+.fa-calendar-days{
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    
+}
+
+.preFooter{
+    padding-top: 2.5rem;
+    background-color: #9593E6;
+}
+
+.preFooterContainer{
+    width: 70%;
+    margin: auto;
+}
+
+.preFooter h3{
+    color: #b9b9e9;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.preFooter h1{
+    color: orange;
+    font-size: 3rem;
+}
+
+.preFooter h2{
+    color: white;
+    font-size: 2rem;
+}
+
+.getStartedButton{
+    color: #9593E6;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 25px;
+    max-width: 100%;
+    width: 100%;
+    /* margin-top: 1.5rem; */
+    margin-bottom: 1.5rem;
+    font-size: 0.6rem; 
+}
+
+.flexButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.preFooter h2,
+.preFooter h1,
+.preFooter  p{
+    padding-bottom: 2rem;
+    text-align: center;
+    line-height: normal;
+}
+
+.preFooter a{
+    text-decoration: underline;
+    color: black;
+}
+
+/* FOOTER */
+FOOTER{
+    background-color: rgba(29, 28, 28, 0.733);
+}
+
+.footerContainer{
+    padding-top: 2rem;
+    width: 65%;
+    margin: auto;
+}
+
+.blueUnderline{
+    color: blue;
+    text-decoration: underline;
+}
+
+.footerText{
+    color: white;
+    padding-bottom: 2rem;
+    text-align: center;
 }
 
 
@@ -495,6 +633,45 @@ nav{
     .benefitsCard{
         width: calc(90%/2);
     }
+
+    /* SECTION FIVE - ABOUT US */
+
+    .sectionAboutUs{
+        display: flex;
+        padding-top: 2rem;
+    }
+
+    .textAboutUs{
+        width: calc(100%/2);
+        padding-right: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    .textAboutUs p{
+        line-height: 2rem;
+    }
+
+    .testimonialAboutUs{
+        width: calc(100%/2);
+    }
+
+    .imgAboutUs{
+        width: 50%;
+        border-radius: 100%;
+    }
+
+    .textAboutUs{
+        align-self: stretch;
+    }
+
+    .testimonialAboutUs{
+        align-self: start;
+    }
+
+    .textAboutUs h2{
+        margin-top: 0rem;
+    }
+    
 
 
 }
@@ -643,5 +820,15 @@ nav{
     .benefitsCard{
         width: calc(90%/3);
     }
+
+    /* SECTION FIVE - ABOUT US */
+
+    .imgAboutUs{
+        width: 50%;
+        border-radius: 100%;
+
+    }
+
+
 
 }
