@@ -76,7 +76,7 @@ nav{
 }
 
 .sectionOne{
-    width: 90%;
+    width: 80%;
     margin: auto;
     /* border: 1px solid red; */
 }
@@ -206,6 +206,8 @@ nav{
 .sectionTwo{
     background-color: #9593E6;
     padding: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .twoTwo{
@@ -389,7 +391,14 @@ nav{
 /* SECTION FIVE - ABOUT US */
 
 .sectionAboutUs{
+    width: 70%;
+    margin: auto;
     padding: 1.5rem;
+}
+
+.aboutUsContainer{
+    width: 80%;
+    margin: auto;
 }
 
 .textAboutUs h2{
@@ -684,6 +693,7 @@ FOOTER{
 
     header{
         background-color: rgb(37, 100, 235);
+        margin-bottom: 2rem;
     }
 
     nav{
@@ -821,8 +831,19 @@ FOOTER{
         width: calc(90%/3);
     }
 
+
+    /* SECTION FOUR */
+
+    .sectionFour{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+    }
+
     /* SECTION FIVE - ABOUT US */
 
+    
+    
     .imgAboutUs{
         width: 50%;
         border-radius: 100%;
