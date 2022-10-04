@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* UTILITIES */
@@ -29,17 +32,18 @@ body{
 nav{
     width: 100%;
     background-color: rgb(37, 100, 235);
+    margin-bottom: 2rem;
 }
 
 .logo{
-    padding: 3%;
+    padding: 2rem;
 }
 
 .rightNav{
     display: flex;
     justify-content: space-around;
-    padding: 3%;
-    margin-top: 2%;
+    padding: 2rem;
+    /* margin-top: 2%; */
     /* border: 1px solid red; */
 }
 
@@ -758,6 +762,11 @@ FOOTER{
 
     #demoApplication{
         display: flex;
+        width: calc((100%/3.1)*2);
+    }
+
+    #cleanCode{
+        width: calc(100%/3.1);
     }
 
     .leftDemo{
